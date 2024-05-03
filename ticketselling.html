@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert Ticket Booking</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Concert Ticket Booking</h1>
+        <form action="checkout.php" method="post">
+            <label for="ticket_type">Ticket Type</label>
+            <select name="ticket_type" id="ticket_type">
+                <option value="general">General Admission</option>
+                <option value="vip">VIP</option>
+                <!-- Add more ticket types if needed -->
+            </select>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" name="quantity" id="quantity" min="1" required>
+
+            <!-- Additional information about the concert event -->
+            <p>Concert Event: Example Concert</p>
+            <p>Performers: Performer 1, Performer 2</p>
+            <p>Date: January 1, 2025</p>
+            <p>Time: 8:00 PM</p>
+
+            <button type="submit">Buy Tickets</button>
+        </form>
+    </div>
+</body>
+</html>

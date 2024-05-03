@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://res.klook.com/image/upload/v1713238020/lcqqykgc4m4g7lf1m1yl.jpg); /* Replace 'background.jpg' with the path to your background image */
+    background-size: 55%; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.ticket-details {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
